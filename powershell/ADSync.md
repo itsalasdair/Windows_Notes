@@ -6,7 +6,7 @@ Import-Module ADSync
 Start-ADSyncSyncCycle -PolicyType Delta
 ```
 
-### Force Full ADSync
+### Force Full ADSync for PS
 ```
 Import-Module ADSync
 Start-ADSyncSyncCycle -PolicyType Initial
